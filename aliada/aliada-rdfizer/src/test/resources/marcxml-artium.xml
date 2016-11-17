@@ -1,88 +1,103 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<marc:record>
-		<marc:leader>01503nam a2200289   4500</marc:leader>
-		<marc:controlfield tag="001">000000145395</marc:controlfield>
-		<marc:controlfield tag="003">CaOOAMICUS</marc:controlfield>
-		<marc:controlfield tag="005">20140325161616.0</marc:controlfield>
-		<marc:controlfield tag="008">140325s2013    sp oooo  6    001 0dspa u</marc:controlfield>
-		<marc:datafield tag="020" ind1=" " ind2=" ">
-			<marc:subfield code="a">978-84-234-1398-0</marc:subfield>
-		</marc:datafield>
-		<marc:datafield tag="040" ind1=" " ind2=" ">
-			<marc:subfield code="a">BCD</marc:subfield>
-			<marc:subfield code="b">spa</marc:subfield>
-		</marc:datafield>
-		<marc:datafield tag="100" ind1="0" ind2=" ">
-			<marc:subfield code="a">Malagón.</marc:subfield>
-		</marc:datafield>
-		<marc:datafield tag="130" ind1="0" ind2=" ">
-			<marc:subfield code="a">This is the uniform title</marc:subfield>
-		</marc:datafield>		
-		<marc:datafield tag="245" ind1="1" ind2="1">
-			<marc:subfield code="a">¡Cabreaos! :</marc:subfield>
-			<marc:subfield code="b">se ríen por encima de nuestras posibilidades /</marc:subfield>
-			<marc:subfield code="c">Malagón.</marc:subfield>
-		</marc:datafield>
-		<marc:datafield tag="260" ind1=" " ind2=" ">
-			<marc:subfield code="a">Barcelona :</marc:subfield>
-			<marc:subfield code="b">Grupo Planeta,</marc:subfield>
-			<marc:subfield code="c">2013.</marc:subfield>
-		</marc:datafield>
-		<marc:datafield tag="300" ind1=" " ind2=" ">
-			<marc:subfield code="a">134 p. :</marc:subfield>
-			<marc:subfield code="b">il. ;</marc:subfield>
-			<marc:subfield code="c">20 cm</marc:subfield>
-		</marc:datafield>
-		<marc:datafield tag="500" ind1=" " ind2=" ">
-			<marc:subfield code="a">Exposición novela gráfica</marc:subfield>
-		</marc:datafield>
-		<marc:datafield tag="520" ind1=" " ind2=" ">
-			<marc:subfield code="a">La mejor forma de sobrellevar la crisis es riéndose de ella. En este libro, el conocido humorista gráfico Malagón nos propone un viaje por los mercados, los bancos, la sanidad, los indignados, la casta política y los recortes, en el que retrata con sorna todo lo que al final nos cabrea de esta crisis. Y es que el cabreo puede ser el motor del cambio. Abandonemos nuestro acomodado enfado frente a la televisión y pasemos al siguiente estado de ánimo, un creciente y cada vez más generalizado cabreo ante la realidad que, debido a algunos, tenemos muchos. (Fuente: Planeta de Libros)</marc:subfield>
-		</marc:datafield>
-		<marc:datafield tag="590" ind1="1" ind2=" ">
-			<marc:subfield code="a">BCD4</marc:subfield>
-		</marc:datafield>
-		<marc:datafield tag="650" ind1=" " ind2="4">
-			<marc:subfield code="a">Cómics</marc:subfield>
-			<marc:subfield code="z">España</marc:subfield>
-			<marc:subfield code="y">2011-2020.</marc:subfield>
-		</marc:datafield>
-		<marc:datafield tag="650" ind1=" " ind2="4">
-			<marc:subfield code="a">Crisis económicas</marc:subfield>
-			<marc:subfield code="y">2008- </marc:subfield>
-			<marc:subfield code="v">Cómics.</marc:subfield>
-		</marc:datafield>
-		<marc:datafield tag="650" ind1=" " ind2="4">
-			<marc:subfield code="a">Corrupción política.</marc:subfield>
-		</marc:datafield>
-		<marc:datafield tag="650" ind1=" " ind2="4">
-			<marc:subfield code="a">Denuncia y crítica social.</marc:subfield>
-		</marc:datafield>
-		<marc:datafield tag="650" ind1=" " ind2="4">
-			<marc:subfield code="a">Corrupción administrativa.</marc:subfield>
-		</marc:datafield>
-		<marc:datafield tag="850" ind1=" " ind2=" ">
-			<marc:subfield code="a">ARTP</marc:subfield>
-		</marc:datafield>
-		<marc:datafield tag="852" ind1=" " ind2=" ">
-			<marc:subfield code="a">ARTP</marc:subfield>
-			<marc:subfield code="x">****</marc:subfield>
-			<marc:subfield code="m">COM MAL3 1</marc:subfield>
-			<marc:subfield code="q">COMPRA</marc:subfield>
-			<marc:subfield code="A">0  0173@  </marc:subfield>
-			<marc:subfield code="B">56023</marc:subfield>
-			<marc:subfield code="F">47130         </marc:subfield>
-			<marc:subfield code="S">COM MAL3 1</marc:subfield>
-		</marc:datafield>
-		<marc:datafield tag="900" ind1="0" ind2=" ">
-			<marc:subfield code="a">Rubio Malagón, José.</marc:subfield>
-		</marc:datafield>
-		<marc:datafield tag="990" ind1="1" ind2="0">
-			<marc:subfield code="a">90001a</marc:subfield>
-			<marc:subfield code="b">10001a</marc:subfield>
-		</marc:datafield>
-	</marc:record>
-</marc:collection>
+<?xml version="1.0"?>
+<collection xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd" xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <record id="catkey_6853178">
+    <leader>00956cam  2200229 a 4500</leader>
+    <controlfield tag="001">a6853178</controlfield>
+    <controlfield tag="008">061017s2007    nyua     b    001 0deng</controlfield>
+    <datafield tag="010" ind1=" " ind2=" ">
+      <subfield code="a">  2006034692</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9781580462525 (hardcover)</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">1580462529 (hardcover)</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="a">DLC</subfield>
+      <subfield code="c">DLC</subfield>
+      <subfield code="d">DLC</subfield>
+    </datafield>
+    <datafield tag="043" ind1=" " ind2=" ">
+      <subfield code="a">e------</subfield>
+    </datafield>
+    <datafield tag="050" ind1="0" ind2="0">
+      <subfield code="a">ML410.M5</subfield>
+      <subfield code="b">C66 2007</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Cooper, John Michael.</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Mendelssohn, Goethe, and the Walpurgis night :</subfield>
+      <subfield code="b">the heathen muse in European culture, 1700-1850 /</subfield>
+      <subfield code="c">John Michael Cooper.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Rochester, NY :</subfield>
+      <subfield code="b">University of Rochester Press,</subfield>
+      <subfield code="c">2007.</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">xvi, 284 p. :</subfield>
+      <subfield code="b">ill. ;</subfield>
+      <subfield code="c">24 cm.</subfield>
+    </datafield>
+    <datafield tag="440" ind1=" " ind2="0">
+      <subfield code="a">Eastman studies in music</subfield>
+      <subfield code="x">1071-9989 ;</subfield>
+      <subfield code="v">v. 43</subfield>
+    </datafield>
+    <datafield tag="504" ind1=" " ind2=" ">
+      <subfield code="a">Includes bibliographical references (p. [261]-274) and indexes.</subfield>
+    </datafield>
+    <datafield tag="505" ind1="0" ind2=" ">
+      <subfield code="a">The cultural and religious prehistories -- Tolerance, translation, and acceptance : Goethe's and Mendelssohn's voices in European cultural discourse to ca. 1850 -- Reality and illusion, past and present : Goethe and the Walpurgisnacht -- The composition, revision, and publication of Mendelssohn's Die erste Walpurgisnacht -- The sources, structure, and narrative of Mendelssohn's Walpurgisnacht settings -- At the crossroads of identity : critical and artistic responses to Goethe's and Mendelssohn's Walpurgisnacht treatments -- Performing identity and alterity : Die erste Walpurgisnacht then and now.</subfield>
+    </datafield>
+    <datafield tag="600" ind1="1" ind2="0">
+      <subfield code="a">Mendelssohn-Bartholdy, Felix,</subfield>
+      <subfield code="d">1809-1847.</subfield>
+      <subfield code="t">Erste Walpurgisnacht.</subfield>
+    </datafield>
+    <datafield tag="600" ind1="1" ind2="0">
+      <subfield code="a">Goethe, Johann Wolfgang von,</subfield>
+      <subfield code="d">1749-1832.</subfield>
+      <subfield code="t">Faust.</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="0">
+      <subfield code="a">Europe</subfield>
+      <subfield code="x">Religious life and customs.</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="0">
+      <subfield code="a">Other (Philosophy)</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="1">
+      <subfield code="3">Table of contents only</subfield>
+      <subfield code="u">http://www.loc.gov/catdir/toc/ecip074/2006034692.html</subfield>
+    </datafield>
+    <datafield tag="980" ind1=" " ind2=" ">
+      <subfield code="f">I-20017070</subfield>
+    </datafield>
+    <datafield tag="983" ind1=" " ind2=" ">
+      <subfield code="a">36105123269487</subfield>
+    </datafield>
+    <datafield tag="596" ind1=" " ind2=" ">
+      <subfield code="a">18</subfield>
+    </datafield>
+    <datafield tag="920" ind1=" " ind2=" ">
+      <subfield code="b">"Mendelssohn, Goethe, and the Walpurgis Night" is a book about tolerance and acceptance in the face of cultural, political, and religious strife. Its point of departure is the Walpurgis Night. The Night, also known as Beltane or May Eve, was supposedly an annual witches' Sabbath that centered around the Brocken, the highest peak of the Harz Mountains. After exploring how a notoriously pagan celebration came to be named after the Christian missionary St. Walpurgis (ca. 710-79), John Michael Cooper discusses the Night's treatments in several closely interwoven works by Goethe and Mendelssohn. His book situates those works in their immediate personal and professional contexts, as well as among treatments by a wide array of other artists, philosophers, and political thinkers, including Voltaire, Lessing, Shelley, Heine, Delacroix, and Berlioz.In an age of decisive political and religious conflict, "Walpurgis Night" became a heathen muse: a source of spiritual inspiration that was neither specifically Christian, nor Jewish, nor Muslim.  And Mendelssohn's and Goethe's engagements with it offer new insights into its role in European cultural history, as well as into issues of political, religious, and social identity - and the relations between cultural groups - in today's world. John Michael Cooper (Southwestern University) is the author of "Mendelssohn's "Italian" Symphony" (Oxford University Press).</subfield>
+      <subfield code="1">Nielsen</subfield>
+      <subfield code="x">9781580462525</subfield>
+      <subfield code="x">20160528</subfield>
+    </datafield>
+    <datafield tag="918" ind1=" " ind2=" ">
+      <subfield code="a">6853178</subfield>
+    </datafield>
+    <datafield tag="950" ind1=" " ind2=" ">
+      <subfield code="a">ML410 .M5 C66 2007</subfield>
+      <subfield code="i">36105123269487</subfield>
+      <subfield code="1">MUSIC</subfield>
+      <subfield code="2">STACKS</subfield>
+    </datafield>
+  </record>
+</collection>

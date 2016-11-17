@@ -326,13 +326,13 @@ public class RDFStoreDAO {
 		QueryExecution qexec = null;
 		try {
 	        // Execute the query and obtain results
-	  		qexec = QueryExecutionFactory.sparqlService(
-	  				sparqlEndpointURI, 
-	        		QueryFactory.create(query), 
-					auth(sparqlEndpointURI, user, password));
-            
+	  	  qexec = QueryExecutionFactory.sparqlService( 
+			sparqlEndpointURI, QueryFactory.create(query), 
+			auth(sparqlEndpointURI, user, password)
+			); 
+
 	        if (qexec instanceof QueryEngineHTTP) {
-	        	((QueryEngineHTTP)qexec).setTimeout(2000L, 5000L);
+	        	((QueryEngineHTTP)qexec).setTimeout(6000L, 9000L);
 	        }
 	        
 	        final ResultSet results = qexec.execSelect() ;
@@ -646,6 +646,9 @@ public class RDFStoreDAO {
 	 * @since 2.0
 	 */
 	public int getNumResources(final String query, final String sparqlEndpointURI, final String user, final String password) {
+		LOGGER.info("URI:" + sparqlEndpointURI);
+		LOGGER.info("user:" + user);
+		LOGGER.info("password:" + password);
 		int numRes = 0;
 		try {
 	        // Execute the query and obtain results

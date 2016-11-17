@@ -12,7 +12,7 @@
 	<name>ALIADA Links Discovery</name>
 	<properties>
 		<module.context.root>/links-discovery</module.context.root>
-		<module.listen.port>8890</module.listen.port>
+		<module.listen.port>8887</module.listen.port>
 	</properties>
 	<dependencies>
 		<dependency>

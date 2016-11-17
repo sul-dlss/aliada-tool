@@ -74,6 +74,7 @@
 				<img class="fleft" src="images/aliada-header.png"/>
 				<ul class="nav fright">
 					<li class="insti bold"><html:property value="%{#session['inst']}" /></li>
+					<li><html:a action="manage"><html:text name="Import File" /></html:a></li>
 					<li><a> <html:text name="conf"/> <img alt="control panel" src="images/config.png"></img> </a>
 						<ul>
 							<li><html:a action="showInstitution"> <html:text name="ins"/> </html:a></li>

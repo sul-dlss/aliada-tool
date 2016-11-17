@@ -3,7 +3,7 @@
 		name="jdbc/aliada"
 		auth="Container"
 		type="javax.sql.DataSource"
-		username="aliada" password="aliada"
+		username="aliada" password="yqzIQ4xsqEM5If3s43uTq/Dk"
 		driverClassName="com.mysql.jdbc.Driver"
 		url="jdbc:mysql://localhost:3306/aliada?autoReconnect=true"
 		validationQuery="Select 1"

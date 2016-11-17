@@ -67,7 +67,7 @@ public class CalculateDatasetNumTriplesTest {
 	public static JobConfiguration newJobConfiguration() {
 		final JobConfiguration job = new JobConfiguration();
 		job.setId(randomIdentifier());
-		job.setStoreIp("aliada.scanbit.net");
+		job.setStoreIp("aliada.scanbit.net:8891");
 		job.setStoreSqlPort(1111);
 		job.setSqlLogin("sql_login");
 		job.setSqlPassword("sql_password");

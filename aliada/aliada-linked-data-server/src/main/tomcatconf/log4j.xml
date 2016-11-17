@@ -11,10 +11,10 @@
 		<priority value="DEBUG" />
 	</category>
 	<category name="org">
-		<priority value="ERROR" />
+		<priority value="INFO" />
 	</category>	
 	<root>
-		<priority value="ERROR" />
+		<priority value="INFO" />
 		<appender-ref ref="CONSOLE" />
 	</root>
 </log4j:configuration>

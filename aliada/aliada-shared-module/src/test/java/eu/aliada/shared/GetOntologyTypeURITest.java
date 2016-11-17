@@ -21,7 +21,7 @@ public class GetOntologyTypeURITest {
      */
     @Test
     public void testGetOntologyTypeURITest() {
-    	String sparqlEndpointURI = "http://aliada.scanbit.net:8891/sparql";
+    	String sparqlEndpointURI = "http://aliada.scanbit.net:8891/sparql-auth";
     	String user = "aliada_dev";
     	String password = "aliada_dev";
 //    	String typeLabel = "1800 utáni gyűjtemény";

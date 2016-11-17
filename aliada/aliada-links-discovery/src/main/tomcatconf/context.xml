@@ -3,7 +3,7 @@
 		name="jdbc/aliada"
 		auth="Container"
 		type="javax.sql.DataSource"
-		username="aliada" password="aliada"
+		username="aliada" password="yqzIQ4xsqEM5If3s43uTq/Dk"
 		driverClassName="com.mysql.jdbc.Driver"
 		url="jdbc:mysql://localhost:3306/aliada?autoReconnect=true"
 		validationQuery="Select 1"
@@ -12,11 +12,11 @@
 <!--  Params to create the sub_jobs properties files: BEGIN -->
 	<Parameter name="ddbb.username" value="aliada"
          override="false"/>
-	<Parameter name="ddbb.password" value="aliada"
+	<Parameter name="ddbb.password" value="yqzIQ4xsqEM5If3s43uTq/Dk"
          override="false"/>
 	<Parameter name="ddbb.driverClassName" value="com.mysql.jdbc.Driver"
          override="false"/>
 	<Parameter name="ddbb.url" value="jdbc:mysql://localhost:3306/aliada"
          override="false"/>
-<!--  Params to create the sub_jobs properties files: END -->
+<!-- Params to create the sub_jobs properties files: END -->
 </Context>

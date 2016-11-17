@@ -128,15 +128,20 @@ public class CaptureValidationSampleAndRunValidation implements Processor {
 		}
 		
 		final JobResource resource = jobRegistry.getJobResource(jobId);
-		if (!resource.isRunning()) {
-			markJobAsCompleted(resource);
-			persistJobStats(resource);
-			unregisterJobFromMxSystem(resource);
-			removeFromInMemoryCache(resource);
-			exchange.setProperty(Exchange.ROUTE_STOP, Boolean.TRUE); 
+
+		try {
+			if (!resource.isRunning()) {
+				markJobAsCompleted(resource);
+				persistJobStats(resource);
+				unregisterJobFromMxSystem(resource);
+				removeFromInMemoryCache(resource);
+				exchange.setProperty(Exchange.ROUTE_STOP, Boolean.TRUE); 
+			}
+		} catch (Exception e) {
+			log.debug("JobResource for job ID:" + jobId + ": " + e.getMessage());
 		}
 	}
-	
+
 	/**
 	 * Marks a given job as completed.
 	 * 

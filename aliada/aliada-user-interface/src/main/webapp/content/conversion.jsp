@@ -28,8 +28,8 @@ $(function(){
 	var interval = 0;
 	var checkRDF = function(){
 		var rdfizerJobId = $("#rdfizerJobId").val();
-		var urlPath = "/aliada-rdfizer-2.0/jobs/"+rdfizerJobId;
-		//var urlPath = "/rdfizer/jobs/"+rdfizerJobId;
+		//var urlPath = "/aliada-rdfizer-2.0/jobs/"+rdfizerJobId;
+		var urlPath = "/rdfizer/jobs/"+rdfizerJobId;
 	    $.ajax({
 	      type: "GET",
 	      url: urlPath,

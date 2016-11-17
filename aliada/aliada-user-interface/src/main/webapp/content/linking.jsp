@@ -39,7 +39,8 @@ $(function(){
 	 
 	 var checkLinking = function(){
 			var linkingJobId = $("#linkingJobId").val();
-			var urlPath = "/aliada-links-discovery-2.0/jobs/"+linkingJobId;
+			//var urlPath = "/aliada-links-discovery-2.0/jobs/"+linkingJobId;
+			var urlPath = "/links-discovery/jobs/"+linkingJobId;
 			var arrName = [];
 			var arrDuration = [];
 			var arrNumLinks = [];
@@ -108,7 +109,8 @@ $(function(){
 		};
 		var checkLDS = function(){
 			var ldsJobId = $("#ldsJobId").val();
-			var urlPath = "/aliada-linked-data-server-2.0/jobs/"+ldsJobId;
+			//var urlPath = "/aliada-linked-data-server-2.0/jobs/"+ldsJobId;
+			var urlPath = "/lds/jobs/"+ldsJobId;
 		    $.ajax({
 		      type: "GET",
 		      url: urlPath,

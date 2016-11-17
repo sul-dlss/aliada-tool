@@ -10,7 +10,7 @@ SCRIPTPATH=$(dirname "$SCRIPT")
 echo $SCRIPTPATH
 
 #CLASSPATH=../lib/*
-CLASSPATH=$SCRIPTPATH/../lib/*
+CLASSPATH=$SCRIPTPATH/../../target/*
 
 JAVA_OPTS="-Dlog4j.configuration=file:///home/aliada/links-discovery/config/log4j.xml -d64"
 

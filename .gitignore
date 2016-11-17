@@ -1,0 +1,6 @@
+aliada/aliada-links-discovery/src/test/resources/*
+aliada/aliada-rdfizer/src/test/resources/*
+bin/
+logs/
+upload/
+work/
