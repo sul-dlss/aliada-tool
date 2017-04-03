@@ -16,7 +16,6 @@
 		<module.listen.port>8880</module.listen.port>
 		<struts2.version>2.3.15.1</struts2.version>
 		<tiles.version>2.2.2</tiles.version>
-		<!--<tiles.version>3.0.7</tiles.version> -->
 	</properties>
 	<dependencies>
 		<dependency>
@@ -77,19 +76,13 @@
 			<artifactId>tiles-jsp</artifactId>
 			<version>${tiles.version}</version>
 		</dependency>
-		<!-- Force use of commons-beanutils-1.9.3 to address vulnerability: https://www.cvedetails.com/cve/CVE-2014-0114/ -->
-		<!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+
 		<dependency>
-    			<groupId>commons-beanutils</groupId>
-        		<artifactId>commons-beanutils</artifactId>
-            		<version>1.9.3</version>
-            	</dependency>
-		<!-- <dependency>
-		    <groupId>commons-fileupload</groupId>
-		    <artifactId>commons-fileupload</artifactId>
-		    <version>1.1.1</version>
-		</dependency> -->
-	 	
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>1.9.3</version>
+		</dependency>
+		
 		<dependency>
 		    <groupId>commons-fileupload</groupId>
 		    <artifactId>commons-fileupload</artifactId>
@@ -101,24 +94,24 @@
 			<artifactId>commons-io</artifactId>
 			<version>2.4</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.googlecode.json-simple</groupId>
 			<artifactId>json-simple</artifactId>
 			<version>1.1.1</version>
-		</dependency>		
-		
+		</dependency>
+
 		<dependency>
 			<groupId>com.jgeppert.struts2.jquery</groupId>
 			<artifactId>struts2-jquery-plugin</artifactId>
 			<version>3.6.1</version>
-		</dependency>	
-			
+		</dependency>
+
 		<dependency>
 			<groupId>org.jasypt</groupId>
 			<artifactId>jasypt</artifactId>
 			<version>1.9.0</version>
 		</dependency>
-		
+
 	</dependencies>
 </project>
